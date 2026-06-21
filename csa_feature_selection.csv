@@ -1,0 +1,15 @@
+Feature,Selected,Status
+District_Encoded,0,Not Selected
+Day,0,Not Selected
+Month,0,Not Selected
+Year,0,Not Selected
+DayOfWeek,0,Not Selected
+WeekOfYear,0,Not Selected
+Rainfall_Lag_1,0,Not Selected
+Rainfall_Lag_2,0,Not Selected
+Rainfall_Lag_3,0,Not Selected
+Rolling_3_Day_Avg,0,Not Selected
+Rolling_7_Day_Avg,1,Selected
+Progressive (m.m),0,Not Selected
+Progressive_Growth,0,Not Selected
+Rainy_Day,0,Not Selected

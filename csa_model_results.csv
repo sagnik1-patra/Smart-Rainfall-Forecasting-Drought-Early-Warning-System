@@ -1,0 +1,4 @@
+Model,Task,MAE,RMSE,R2_Score,Accuracy,Selected_Feature_Count
+CSA + Random Forest Regressor,Rainfall Prediction,2.3760000000000003,3.2846917663610387,-0.6592387543252594,,1
+CSA + Neural Network Regressor,Rainfall Prediction,2.4588252514600755,3.3665295195389517,-0.7429482515843389,,1
+CSA + Random Forest Classifier,Drought Risk Classification,,,,1.0,1

@@ -1,0 +1,74 @@
+{
+    "project_name": "CSA Smart Rainfall Forecasting and Drought Early Warning System",
+    "algorithm": "Crow Search Algorithm Feature Selection",
+    "selected_features": [
+        "Rolling_7_Day_Avg"
+    ],
+    "selected_feature_count": 1,
+    "all_features": [
+        "District_Encoded",
+        "Day",
+        "Month",
+        "Year",
+        "DayOfWeek",
+        "WeekOfYear",
+        "Rainfall_Lag_1",
+        "Rainfall_Lag_2",
+        "Rainfall_Lag_3",
+        "Rolling_3_Day_Avg",
+        "Rolling_7_Day_Avg",
+        "Progressive (m.m)",
+        "Progressive_Growth",
+        "Rainy_Day"
+    ],
+    "csa_random_forest_regression": {
+        "MAE": 2.3760000000000003,
+        "RMSE": 3.2846917663610387,
+        "R2_Score": -0.6592387543252594
+    },
+    "csa_neural_network_regression": {
+        "MAE": 2.4588252514600755,
+        "RMSE": 3.3665295195389517,
+        "R2_Score": -0.7429482515843389
+    },
+    "csa_random_forest_classification": {
+        "Accuracy": 1.0,
+        "Classification_Report": {
+            "High_Drought_Risk": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 2.0
+            },
+            "Medium_Drought_Risk": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 0.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1-score": 0.5,
+                "support": 2.0
+            },
+            "weighted avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 2.0
+            }
+        },
+        "Confusion_Matrix": [
+            [
+                2,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ]
+    }
+}
