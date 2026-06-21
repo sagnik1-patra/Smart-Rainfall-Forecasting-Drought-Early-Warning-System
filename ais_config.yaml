@@ -1,0 +1,33 @@
+project_name: AIS Smart Rainfall Forecasting and Drought Early Warning System
+author: Sagnik Patra
+algorithm: Artificial Immune System
+dataset_path: C:\Users\NXTWAVE\Downloads\Smart Rainfall Forecasting & Drought Early
+  Warning System\Daily_Rainfall_District_Beed.csv
+output_directory: C:\Users\NXTWAVE\Downloads\Smart Rainfall Forecasting & Drought
+  Early Warning System
+selected_features:
+- Year
+- Rolling_7_Day_Avg
+models:
+- AIS + RandomForestRegressor
+- AIS + RandomForestClassifier
+- AIS + NeuralNetworkRegressor
+saved_outputs:
+- ais_feature_selection.csv
+- ais_model_results.csv
+- ais_predictions.csv
+- ais_results.json
+- ais_config.yaml
+- ais_rainfall_neural_network_model.h5
+- ais_rainfall_random_forest_regressor.pkl
+- ais_drought_risk_random_forest_classifier.pkl
+- ais_accuracy_graph.png
+- ais_confusion_matrix_heatmap.png
+- ais_comparison_graph.png
+- ais_result_graph.png
+- ais_prediction_graph.png
+- ais_fitness_curve.png
+- ais_feature_selection_graph.png
+- ais_rainfall_trend_graph.png
+- ais_monthly_rainfall_graph.png
+- ais_correlation_heatmap.png

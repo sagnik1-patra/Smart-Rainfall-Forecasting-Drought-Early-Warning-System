@@ -1,0 +1,4 @@
+Model,Task,MAE,RMSE,R2_Score,Accuracy,Selected_Feature_Count
+AIS + Random Forest Regressor,Rainfall Prediction,2.3760000000000003,3.2846917663610387,-0.6592387543252594,,2
+AIS + Neural Network Regressor,Rainfall Prediction,2.45980224609375,3.3721542023690567,-0.748777234072324,,2
+AIS + Random Forest Classifier,Drought Risk Classification,,,,1.0,2

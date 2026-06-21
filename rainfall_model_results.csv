@@ -1,0 +1,4 @@
+Model,Task,MAE,RMSE,R2_Score,Accuracy
+Random Forest Regressor,Rainfall Prediction,2.431,3.41118894228977,-0.7894978854286807,
+Neural Network Regressor,Rainfall Prediction,2.9519376635551455,3.4496373082530507,-0.8300649840048213,
+Random Forest Classifier,Drought Risk Classification,,,,1.0
